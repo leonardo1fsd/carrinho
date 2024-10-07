@@ -1,0 +1,171 @@
+/* Estilo para a página de login */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(196, 186, 184); /* Cor de fundo padrão */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(0, 0, 0); /* Cor do fundo do menu */
+    padding: 20px 0; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column; /* Coloca logo e menu em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.nav-logo {
+    margin-bottom: 10px; /* Espaçamento abaixo da logo */
+}
+
+.nav-logo img {
+    width: 180px; /* Ajuste o tamanho da logo se necessário */
+}
+
+nav ul {
+    list-style-type: none; /* Remove as bolinhas padrão */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Faz com que os itens fiquem lado a lado */
+    justify-content: center; /* Centraliza os itens */
+}
+
+nav ul li {
+    margin: 0 30px; /* Espaçamento entre os menus */
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 16px; /* Tamanho da fonte ajustado para ser um pouco menor */
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+nav ul li a:hover {
+    color: brown; /* Cor do texto ao passar o mouse */
+}
+
+.img1 {
+    width: 90px;
+    height: 90px;
+}
+
+/* Estilo do container de login */
+.login-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto; /* Centraliza o container */
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000000;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(0, 0, 0); /* Cor de fundo do botão */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(38, 28, 10); /* Cor de fundo do botão ao passar o mouse */
+}
+
+
+footer {
+    background-color: #252121;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    flex-wrap: wrap; /* Permite que as seções se movam para baixo se não houver espaço */
+}
+
+.footer-section {
+    width: 20%; /* Ajuste conforme necessário */
+   
+}
+
+.cabecalho {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+footer {
+    background-color: #252121;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    flex-wrap: wrap; /* Permite que as seções se movam para baixo se não houver espaço */
+}
+
+.footer-section {
+    width: 20%; /* Ajuste conforme necessário */
+   
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.footer-section p {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: sans-serif;
+}
+
+.footer-section a:hover {
+    color: #ff9900; /* Cor ao passar o mouse */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}

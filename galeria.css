@@ -1,0 +1,152 @@
+/* Reset básico */
+
+body {
+    background-color: rgb(196, 186, 184);
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte para o corpo */
+}
+
+nav {
+    background-color: rgb(0, 0, 0); /* Cor do fundo do menu */
+    padding: 20px 0; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column; /* Coloca logo e menu em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.nav-logo {
+    margin-bottom: 10px; /* Espaçamento abaixo da logo */
+}
+
+.nav-logo img {
+    width: 180px; /* Ajuste o tamanho da logo se necessário */
+}
+
+nav ul {
+    list-style-type: none; /* Remove as bolinhas padrão */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Faz com que os itens fiquem lado a lado */
+    justify-content: center; /* Centraliza os itens */
+}
+
+nav ul li {
+    margin: 0 30px; /* Espaçamento entre os menus */
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 16px; /* Tamanho da fonte ajustado para ser um pouco menor */
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+nav ul li a:hover {
+    color: brown; /* Cor do texto ao passar o mouse */
+}
+
+
+.img1 {
+    width: 90px;
+    height: 90px;
+}
+
+section {
+    padding: 40px 20px;
+    margin-top: 60px;
+    background-color: #ececec;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 24px; /* Tamanho do h2 igual ao h1 */
+    color: #ffffff; /* Cor igual ao h1 */
+    margin-bottom: 20px; /* Espaçamento abaixo do h2 */
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/* Estilo da galeria */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 20px); /* Ajusta três itens por linha */
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Transição suave para o zoom */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove o espaço abaixo da imagem */
+    transition: transform 0.3s ease; /* Transição suave para o zoom */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Efeito de zoom suave ao passar o mouse */
+}
+
+footer {
+    background-color: #252121;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Permite que as seções se movam para baixo se não houver espaço */
+}
+
+.footer-section {
+    width: 20%; /* Ajuste conforme necessário */
+    margin: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #ff9900; /* Cor ao passar o mouse */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
